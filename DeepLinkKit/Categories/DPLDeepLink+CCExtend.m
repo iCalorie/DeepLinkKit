@@ -7,6 +7,7 @@
 //
 
 #import "DPLDeepLink+CCExtend.h"
+#import <objc/runtime.h>
 
 @implementation DPLDeepLink (CCExtend)
 
