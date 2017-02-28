@@ -121,6 +121,7 @@
         DPLRouteMatcher *matcher = [DPLRouteMatcher matcherWithRoute:route];
         deepLink = [matcher deepLinkWithURL:url];
         if (deepLink) {
+            deepLink.route = route;
             isHandled = [self handleRoute:route withDeepLink:deepLink error:&error];
             break;
         }

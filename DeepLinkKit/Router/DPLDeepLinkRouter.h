@@ -1,4 +1,5 @@
 @import Foundation;
+#import "DPLDeepLink+CCExtend.h"
 
 @class DPLDeepLink;
 
